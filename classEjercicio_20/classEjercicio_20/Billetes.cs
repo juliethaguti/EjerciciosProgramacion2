@@ -145,9 +145,8 @@ namespace Billetes
         {
             this.cantidad = cantidad;
         }
-        public Euro(double cantidad, float cotizacion)
-        {
-            Euro(cantidad);
+        public Euro(double cantidad, float cotizacion) :this (cantidad)
+        {     
             this.cotizRespectoDolar = cotizacion;
         }
         public float GetCotizacion()
@@ -168,6 +167,80 @@ namespace Billetes
         {
             return new Euro(d);
         }
+        public static bool operator !=(Euro e, Dolar d)
+        {
+            bool retorno = false;
+            Euro dolares = (Euro)d;
+
+            if (e.cantidad != dolares.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static bool operator !=(Euro e, Pesos p)
+        {
+            bool retorno = false;
+            Euro pesos = (Euro)p;
+
+            if (e.cantidad != pesos.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static Euro operator -(Euro e, Dolar d)
+        {
+            Euro retorno = new Euro(e.cantidad - ((Euro)d).cantidad);
+            return retorno;
+        }
+        public static Euro operator -(Euro e, Pesos p)
+        {
+            Euro retorno = new Euro(e.cantidad - ((Euro)p).cantidad);
+            return retorno;
+        }
+        public static Euro operator +(Euro e, Dolar d)
+        {
+            Euro retorno = new Euro(e.cantidad + ((Euro)d).cantidad);
+            return retorno;
+        }
+        public static Euro operator +(Euro e, Pesos p)
+        {
+            Euro retorno = new Euro(e.cantidad + ((Euro)p).cantidad);
+            return retorno;
+        }
+        public static bool operator ==(Euro e, Dolar d)
+        {
+            bool retorno = false;
+            Euro dolares = (Euro)d;
+
+            if (e.cantidad == dolares.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static bool operator ==(Euro e, Pesos p)
+        {
+            bool retorno = false;
+            Euro pesos = (Euro)p;
+
+            if (e.cantidad == pesos.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static bool operator ==(Euro e1, Euro e2)
+        {
+            bool retorno = false;
+
+            if (e1.cantidad == e2.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
     }
     class Dolar
     {
@@ -182,9 +255,8 @@ namespace Billetes
         {
             this.cantidad = cantidad;
         }
-        public Dolar(double cantidad, float cotizacion)
+        public Dolar(double cantidad, float cotizacion) : this(cantidad)
         {
-            Dolar(cantidad);
             this.cotizRespectoDolar = cotizacion;
         }
         public float GetCotizacion()
@@ -202,6 +274,80 @@ namespace Billetes
         public static implicit operator Dolar(double d)
         {
             return new Dolar(d);
+        }
+        public static bool operator !=(Dolar d, Pesos p)
+        {
+            bool retorno = false;
+            Dolar pesos = (Dolar)p;
+
+            if (d.cantidad != pesos.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static bool operator !=(Dolar d, Euro e)
+        {
+            bool retorno = false;
+            Dolar euros = (Dolar)e;
+
+            if (d.cantidad != euros.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static Dolar operator -(Dolar d, Pesos p)
+        {
+            Dolar retorno = new Dolar(d.cantidad - ((Dolar)p).cantidad);
+            return retorno;
+        }
+        public static Dolar operator -(Dolar d, Euro e)
+        {
+            Dolar retorno = new Dolar(d.cantidad - ((Dolar)e).cantidad);
+            return retorno;
+        }
+        public static Dolar operator +(Dolar d, Pesos p)
+        {
+            Dolar retorno = new Dolar(d.cantidad + ((Dolar)p).cantidad);
+            return retorno;
+        }
+        public static Dolar operator +(Dolar d, Euro e)
+        {
+            Dolar retorno = new Dolar(d.cantidad + ((Dolar)e).cantidad);
+            return retorno;
+        }
+        public static bool operator ==(Dolar d, Pesos p)
+        {
+            bool retorno = false;
+            Dolar pesos = (Dolar)p;
+
+            if (d.cantidad == pesos.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static bool operator ==(Dolar d, Euro e)
+        {
+            bool retorno = false;
+            Dolar euros = (Dolar)e;
+
+            if (d.cantidad == euros.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+        public static bool operator ==(Dolar d1, Dolar d2)
+        {
+            bool retorno = false;
+
+            if (d1.cantidad == d2.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
         }
     }
 }
