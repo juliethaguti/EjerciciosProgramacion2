@@ -1,0 +1,6 @@
+D:\VisualStudio\ClassEjercicio_26\ClassEjercicio_26\bin\Debug\ClassEjercicio_26.exe.config
+D:\VisualStudio\ClassEjercicio_26\ClassEjercicio_26\bin\Debug\ClassEjercicio_26.exe
+D:\VisualStudio\ClassEjercicio_26\ClassEjercicio_26\bin\Debug\ClassEjercicio_26.pdb
+D:\VisualStudio\ClassEjercicio_26\ClassEjercicio_26\obj\Debug\ClassEjercicio_26.csprojResolveAssemblyReference.cache
+D:\VisualStudio\ClassEjercicio_26\ClassEjercicio_26\obj\Debug\ClassEjercicio_26.exe
+D:\VisualStudio\ClassEjercicio_26\ClassEjercicio_26\obj\Debug\ClassEjercicio_26.pdb
