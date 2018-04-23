@@ -1,0 +1,2 @@
+D:\VisualStudio\GutierrezGomez\ClassEjercicio_30\ClassEjercicio_30\bin\Debug\ClassEjercicio_30.exe.config
+C:\Users\alumno\Desktop\ClassEjercicio_30\ClassEjercicio_30\bin\Debug\ClassEjercicio_30.exe.config
