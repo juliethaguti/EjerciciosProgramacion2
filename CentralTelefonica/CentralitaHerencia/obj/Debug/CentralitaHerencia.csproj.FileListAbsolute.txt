@@ -1,1 +1,2 @@
 D:\VisualStudio\CentralTelefonica\CentralitaHerencia\bin\Debug\CentralitaHerencia.exe.config
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralTelefonica\CentralitaHerencia\bin\Debug\CentralitaHerencia.exe.config

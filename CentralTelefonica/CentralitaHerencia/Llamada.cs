@@ -53,7 +53,20 @@ namespace CentralitaHerencia
 
         public int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
         {
-            SortedList<>
+            int retorno = 0;
+
+            if (llamada1 != null && llamada2 != null)
+            {
+                if (llamada1.Duracion > llamada2.Duracion)
+                {
+                    retorno = 1;
+                }
+                else
+                {
+                    retorno = -1;
+                }
+            }
+            return retorno;
         }
     }
 }
