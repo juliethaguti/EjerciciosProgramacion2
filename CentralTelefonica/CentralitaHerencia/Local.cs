@@ -14,18 +14,35 @@ namespace CentralitaHerencia
         {
             get
             {
-                return this._costo;
+                return CalcularCosto();
             }
         }
 
-        public Local(Llamada llamada, float costo)
+        public Local(string origen, float duracion, string destino, float costo)
+            : base(duracion, destino, origen)
+        {
+            this._costo = costo;
+        }
+
+        public Local(Llamada llamada, float costo) :this(llamada.NroOrigen,llamada.Duracion,llamada.NroDestino,costo)
         {
 
         }
+
         private float CalcularCosto()
         {
-            Llamada llamada = new Llamada(this.Duracion,this.NroDestino,this.NroOrigen);
-            if()
+            return base.Duracion * this.CostoLlamada;
+             
+        }
+
+        public string Mostrar()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine("DURACION: "+base.Duracion.ToString()+"DESTINO: "+base.NroDestino+"ORIGEN: "+base.NroOrigen
+                +"COSTO: "+this.CostoLlamada.ToString());
+
+            return sb.ToString();
         }
     }
 }

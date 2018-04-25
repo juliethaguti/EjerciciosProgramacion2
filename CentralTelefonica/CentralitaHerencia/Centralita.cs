@@ -16,6 +16,10 @@ namespace CentralitaHerencia
             listaDeLlamadas = new List<Llamada>();
         }
 
+        public Centralita(string nombreEmpresa) : this()
+        {
+            this.razonSocial = nombreEmpresa;
+        }
         public float GananciaPorLocal 
         {
             get
@@ -23,6 +27,15 @@ namespace CentralitaHerencia
                 return this.;
             }
         }
+
+        public List<Llamada> Llamadas 
+        {
+            get
+            {
+                return this.listaDeLlamadas;
+            }
+        }
+
         private float CalcularGanancia(TipoLlamada tipo)
         {
             

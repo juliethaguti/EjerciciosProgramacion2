@@ -14,6 +14,9 @@ namespace CentralitaHerencia
 
         public Llamada(float duracion, string nroDestino, string nroOrigen)
         {
+            this._duracion = duracion;
+            this._nroDestino = nroDestino;
+            this._nroOrigen = nroOrigen;
 
         }
 
@@ -41,7 +44,7 @@ namespace CentralitaHerencia
             }
         }
 
-        public string Mostrar()
+        public string Mostrar()//virtual
         {
             StringBuilder sb = new StringBuilder();
 
@@ -67,6 +70,13 @@ namespace CentralitaHerencia
                 }
             }
             return retorno;
+        }
+
+        public enum TipoLlammada
+        {
+            Local,
+            Provincial,
+            Todas
         }
     }
 }
