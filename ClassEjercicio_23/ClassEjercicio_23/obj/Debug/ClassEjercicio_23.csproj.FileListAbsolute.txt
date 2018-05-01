@@ -1,0 +1,9 @@
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\bin\Debug\ClassEjercicio_23.exe.config
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\obj\Debug\ClassEjercicio_23.csprojResolveAssemblyReference.cache
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\obj\Debug\ClassEjercicio_23.Form1.resources
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\obj\Debug\ClassEjercicio_23.Properties.Resources.resources
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\obj\Debug\ClassEjercicio_23.csproj.GenerateResource.Cache
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\bin\Debug\ClassEjercicio_23.exe
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\bin\Debug\ClassEjercicio_23.pdb
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\obj\Debug\ClassEjercicio_23.exe
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\ClassEjercicio_23\ClassEjercicio_23\obj\Debug\ClassEjercicio_23.pdb
