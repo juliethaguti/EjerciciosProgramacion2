@@ -8,8 +8,6 @@ namespace Repaso
 {
     class Producto
     {
-        StringBuilder miStringBuilder = new StringBuilder();
-
         private string codigoDeBarra;
         private string marca;
         private float precio;
@@ -29,15 +27,30 @@ namespace Repaso
         {
             return this.precio;
         }
-        public static explicit operator string(Producto p)
+        public string MostrarProducto(Producto p)
         {
-            return p.codigoDeBarra;
+            StringBuilder miStringBuilder = new StringBuilder();
+
+            miStringBuilder.AppendLine(p.GetMarca());
+            miStringBuilder.AppendLine(p.GetPrecio().ToString());
+            miStringBuilder.AppendLine((string)p);
+
+            return miStringBuilder.ToString();
         }
-        public static bool operator !=(Producto p, string marca)
+        public static explicit operator string(Producto producto)
+        {
+            string retorno = null;
+            if(!object.ReferenceEquals(producto,null))
+            {
+                retorno = producto.codigoDeBarra;
+            }
+            return retorno;
+        }
+        public static bool operator ==(Producto p1, Producto p2)
         {
             bool retorno = false;
 
-            if (p.GetMarca() != marca)
+            if ((string)p1 == (string)p2 && p1.GetMarca() == p2.GetMarca())
             {
                 retorno = true;
             }
@@ -63,23 +76,15 @@ namespace Repaso
             }
             return retorno;
         }
-        public static bool operator ==(Producto p1, Producto p2)
+        public static bool operator !=(Producto p, string marca)
         {
             bool retorno = false;
 
-            if ((string)p1 == (string)p2 && p1.GetMarca() == p2.GetMarca())
+            if (p.GetMarca() != marca)
             {
                 retorno = true;
             }
             return retorno;
-        }
-        public string MostrarProducto(Producto p)
-        {
-            miStringBuilder.AppendLine(p.GetMarca());
-            miStringBuilder.AppendLine(p.GetPrecio().ToString());
-            miStringBuilder.AppendLine((string)p);
-
-            return miStringBuilder.ToString();
-        }
+        }      
     }
 }

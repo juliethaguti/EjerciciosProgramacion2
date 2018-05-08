@@ -24,6 +24,19 @@ namespace Repaso
         {
             return this.arrayProductos;
         }
+        public static bool operator ==(Estante e, Producto p)
+        {
+            bool retorno = false;
+            int i;
+            for (i = 0; i < e.arrayProductos.Length; i++)
+            {
+                if (p == e.arrayProductos[i])
+                {
+                    retorno = true;
+                }
+            }
+            return retorno;
+        }
         public static bool operator !=(Estante e, Producto p)
         {
             bool retorno = false;
@@ -46,7 +59,7 @@ namespace Repaso
             {
                 if (e.arrayProductos[i] == p)
                 {
-                    e.arrayProductos = null;
+                    e.arrayProductos[i] = null;
                 }
             }
             return e;
@@ -58,43 +71,30 @@ namespace Repaso
 
             for(i = 0; i < e.arrayProductos.Length ; i++)
             {
-                if (Object.ReferenceEquals(e.arrayProductos[i], null))
+          
+                if (e.arrayProductos[i] == p)
                 {
-                    if (p == e.arrayProductos[i])
-                    {
-                        break;
-                    }
-                    else
+                        break;                                     
+                }
+                else if (object.ReferenceEquals(e.arrayProductos[i], null))
                     {
                         e.arrayProductos[i] = p;
                         retorno = true;
-                    }                 
-                }
+                        break;
+                    }
             }
             return retorno;
         }
-        public static bool operator ==(Estante e, Producto p)
-        {
-            bool retorno = false;
-            int i;
-            for (i = 0; i < e.arrayProductos.Length; i++)
-            {
-                if (p == e.arrayProductos[i])
-                {
-                    retorno = true;
-                }
-            }
-            return retorno;
-        }
+        
         public string MostrarEstante(Estante e)
         {
-            StringBuilder miStringBuilder = new StringBuilder;
+            StringBuilder miStringBuilder = new StringBuilder();
             int i;
             miStringBuilder.AppendLine("Nº DE ESTANTE: " + e.ubicacionEstante.ToString());
 
             for(i = 0; i < e.arrayProductos.Length; i++)
             {
-                if(!Object.ReferenceEquals(e.arrayProductos[i],null)
+                if(!object.ReferenceEquals(e.arrayProductos[i],null))
                 {
                     miStringBuilder.AppendLine(e.arrayProductos[i].MostrarProducto(arrayProductos[i]));
                 }
