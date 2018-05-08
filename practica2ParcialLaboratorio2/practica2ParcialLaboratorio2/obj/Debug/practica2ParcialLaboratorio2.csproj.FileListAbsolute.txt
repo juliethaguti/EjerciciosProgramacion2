@@ -1,0 +1,6 @@
+c:\users\julieta\documents\visual studio 2012\Projects\practica2ParcialLaboratorio2\practica2ParcialLaboratorio2\bin\Debug\practica2ParcialLaboratorio2.exe.config
+c:\users\julieta\documents\visual studio 2012\Projects\practica2ParcialLaboratorio2\practica2ParcialLaboratorio2\bin\Debug\practica2ParcialLaboratorio2.exe
+c:\users\julieta\documents\visual studio 2012\Projects\practica2ParcialLaboratorio2\practica2ParcialLaboratorio2\bin\Debug\practica2ParcialLaboratorio2.pdb
+c:\users\julieta\documents\visual studio 2012\Projects\practica2ParcialLaboratorio2\practica2ParcialLaboratorio2\obj\Debug\practica2ParcialLaboratorio2.csprojResolveAssemblyReference.cache
+c:\users\julieta\documents\visual studio 2012\Projects\practica2ParcialLaboratorio2\practica2ParcialLaboratorio2\obj\Debug\practica2ParcialLaboratorio2.exe
+c:\users\julieta\documents\visual studio 2012\Projects\practica2ParcialLaboratorio2\practica2ParcialLaboratorio2\obj\Debug\practica2ParcialLaboratorio2.pdb
