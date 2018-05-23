@@ -1,0 +1,7 @@
+D:\VisualStudio\Ejercicio_47\Ejercicio_47\bin\Debug\Ejercicio_47.exe.config
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\Ejercicio_47\Ejercicio_47\bin\Debug\Ejercicio_47.exe.config
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\Ejercicio_47\Ejercicio_47\bin\Debug\Ejercicio_47.exe
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\Ejercicio_47\Ejercicio_47\bin\Debug\Ejercicio_47.pdb
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\Ejercicio_47\Ejercicio_47\obj\Debug\Ejercicio_47.csprojResolveAssemblyReference.cache
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\Ejercicio_47\Ejercicio_47\obj\Debug\Ejercicio_47.exe
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\Ejercicio_47\Ejercicio_47\obj\Debug\Ejercicio_47.pdb

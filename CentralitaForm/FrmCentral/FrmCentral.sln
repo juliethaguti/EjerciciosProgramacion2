@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmCentral", "FrmCentral\FrmCentral.csproj", "{0DB5CDDB-EFA8-4C0B-9692-D460F3D5111C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaLibrary", "..\CentralitaLibrary\CentralitaLibrary\CentralitaLibrary.csproj", "{D3E5EADA-2AC8-4C4D-ADE3-DDF6224EEE1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB5CDDB-EFA8-4C0B-9692-D460F3D5111C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB5CDDB-EFA8-4C0B-9692-D460F3D5111C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB5CDDB-EFA8-4C0B-9692-D460F3D5111C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB5CDDB-EFA8-4C0B-9692-D460F3D5111C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E5EADA-2AC8-4C4D-ADE3-DDF6224EEE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E5EADA-2AC8-4C4D-ADE3-DDF6224EEE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E5EADA-2AC8-4C4D-ADE3-DDF6224EEE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E5EADA-2AC8-4C4D-ADE3-DDF6224EEE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
