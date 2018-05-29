@@ -16,7 +16,7 @@ namespace CentralitaLibrary
         {
             get
             {
-                ;
+                return this.InnerException;
             }
         }
         public string NombreClase
@@ -48,5 +48,6 @@ namespace CentralitaLibrary
         {
 
         }
+        #endregion
     }
 }

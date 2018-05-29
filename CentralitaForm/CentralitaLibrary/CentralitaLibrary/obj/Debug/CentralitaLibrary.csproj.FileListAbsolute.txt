@@ -3,3 +3,8 @@ C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralitaForm\Centralita
 C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralitaForm\CentralitaLibrary\CentralitaLibrary\obj\Debug\CentralitaLibrary.csprojResolveAssemblyReference.cache
 C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralitaForm\CentralitaLibrary\CentralitaLibrary\obj\Debug\CentralitaLibrary.dll
 C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralitaForm\CentralitaLibrary\CentralitaLibrary\obj\Debug\CentralitaLibrary.pdb
+C:\Users\alumno\Desktop\CentralitaForm\CentralitaLibrary\CentralitaLibrary\obj\Debug\CentralitaLibrary.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\CentralitaForm\CentralitaLibrary\CentralitaLibrary\obj\Debug\CentralitaLibrary.dll
+C:\Users\alumno\Desktop\CentralitaForm\CentralitaLibrary\CentralitaLibrary\obj\Debug\CentralitaLibrary.pdb
+C:\Users\alumno\Desktop\CentralitaForm\CentralitaLibrary\CentralitaLibrary\bin\Debug\CentralitaLibrary.dll
+C:\Users\alumno\Desktop\CentralitaForm\CentralitaLibrary\CentralitaLibrary\bin\Debug\CentralitaLibrary.pdb

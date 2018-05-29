@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace CentralHerencia
 {
-    public class Provincial : Llamada
+    public class Provincial : Llamada, IGuardar<Provincial>
     {
         protected Franja _franjaHoraria;
+        public string rutaDeArchivo;
 
         public enum Franja
         {
@@ -17,6 +18,17 @@ namespace CentralHerencia
             Franja_3 = 66
         }
         #region Propiedades
+        public string RutaDeArchivo
+        {
+            get
+            {
+                return this.rutaDeArchivo;
+            }
+            set
+            {
+                this.rutaDeArchivo = value;
+            }
+        }
         public override float CostoLlamada 
         { 
             get
@@ -77,6 +89,16 @@ namespace CentralHerencia
          public override bool Equals(object obj)
          {
              return obj is Provincial;
+         }
+
+         public bool Guardar()
+         {
+             throw new NotImplementedException();
+         }
+
+         public Provincial Leer()
+         {
+             throw new NotImplementedException();
          }
         #endregion
     }
