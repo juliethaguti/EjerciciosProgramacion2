@@ -1,0 +1,6 @@
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_11\ClassEjercicio_11\bin\Debug\ClassEjercicio_11.exe.config
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_11\ClassEjercicio_11\obj\Debug\ClassEjercicio_11.csprojResolveAssemblyReference.cache
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_11\ClassEjercicio_11\bin\Debug\ClassEjercicio_11.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_11\ClassEjercicio_11\bin\Debug\ClassEjercicio_11.pdb
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_11\ClassEjercicio_11\obj\Debug\ClassEjercicio_11.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_11\ClassEjercicio_11\obj\Debug\ClassEjercicio_11.pdb
