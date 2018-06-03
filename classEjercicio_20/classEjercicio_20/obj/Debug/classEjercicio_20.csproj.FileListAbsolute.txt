@@ -1,2 +1,7 @@
 c:\users\julieta\documents\visual studio 2012\Projects\classEjercicio_20\classEjercicio_20\bin\Debug\classEjercicio_20.exe.config
 C:\Users\alumno\Desktop\EjerciciosProgramacion2-master\classEjercicio_20\classEjercicio_20\bin\Debug\classEjercicio_20.exe.config
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\classEjercicio_20\classEjercicio_20\obj\Debug\classEjercicio_20.csprojResolveAssemblyReference.cache
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\classEjercicio_20\classEjercicio_20\bin\Debug\classEjercicio_20.exe
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\classEjercicio_20\classEjercicio_20\bin\Debug\classEjercicio_20.pdb
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\classEjercicio_20\classEjercicio_20\obj\Debug\classEjercicio_20.exe
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\classEjercicio_20\classEjercicio_20\obj\Debug\classEjercicio_20.pdb

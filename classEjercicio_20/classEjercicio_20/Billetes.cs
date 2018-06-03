@@ -141,11 +141,11 @@ namespace Billetes
         {
             this.cantidad = 0;
         }
-        public Euro(double cantidad)
+        public Euro(double cantidad) : this()
         {
             this.cantidad = cantidad;
         }
-        public Euro(double cantidad, float cotizacion) :this (cantidad)
+        public Euro(double cantidad, float cotizacion) : this (cantidad)
         {     
             this.cotizRespectoDolar = cotizacion;
         }
@@ -231,11 +231,23 @@ namespace Billetes
             }
             return retorno;
         }
+
         public static bool operator ==(Euro e1, Euro e2)
         {
             bool retorno = false;
 
             if (e1.cantidad == e2.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+
+        public static bool operator !=(Euro e1, Euro e2)
+        {
+            bool retorno = false;
+
+            if (e1.cantidad != e2.cantidad)
             {
                 retorno = true;
             }
@@ -251,7 +263,7 @@ namespace Billetes
         {
             this.cantidad = 0;
         }
-        public Dolar(double cantidad)
+        public Dolar(double cantidad) : this()
         {
             this.cantidad = cantidad;
         }
@@ -286,6 +298,7 @@ namespace Billetes
             }
             return retorno;
         }
+
         public static bool operator !=(Dolar d, Euro e)
         {
             bool retorno = false;
@@ -297,6 +310,18 @@ namespace Billetes
             }
             return retorno;
         }
+
+        public static bool operator !=(Dolar d1, Dolar d2)
+        {
+            bool retorno = false;
+
+            if (d1.cantidad != d2.cantidad)
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
+
         public static Dolar operator -(Dolar d, Pesos p)
         {
             Dolar retorno = new Dolar(d.cantidad - ((Dolar)p).cantidad);
