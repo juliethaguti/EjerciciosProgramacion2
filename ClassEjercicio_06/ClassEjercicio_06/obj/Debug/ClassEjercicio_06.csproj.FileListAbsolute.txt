@@ -1,0 +1,5 @@
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_06\ClassEjercicio_06\bin\Debug\ClassEjercicio_06.exe.config
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_06\ClassEjercicio_06\bin\Debug\ClassEjercicio_06.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_06\ClassEjercicio_06\bin\Debug\ClassEjercicio_06.pdb
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_06\ClassEjercicio_06\obj\Debug\ClassEjercicio_06.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_06\ClassEjercicio_06\obj\Debug\ClassEjercicio_06.pdb

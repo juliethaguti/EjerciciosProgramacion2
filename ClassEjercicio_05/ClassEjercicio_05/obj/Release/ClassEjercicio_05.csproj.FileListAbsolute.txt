@@ -1,0 +1,5 @@
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio05\ClassEjercicio_05\bin\Release\ClassEjercicio_05.exe.config
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio05\ClassEjercicio_05\bin\Release\ClassEjercicio_05.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio05\ClassEjercicio_05\bin\Release\ClassEjercicio_05.pdb
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio05\ClassEjercicio_05\obj\Release\ClassEjercicio_05.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio05\ClassEjercicio_05\obj\Release\ClassEjercicio_05.pdb
