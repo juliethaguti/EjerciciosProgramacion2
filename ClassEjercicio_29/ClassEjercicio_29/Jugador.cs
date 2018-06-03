@@ -8,16 +8,17 @@ namespace ClassEjercicio_29
 {
     class Jugador : Persona
     {
-        private long dni;
-        private string nombre;
+        //private long dni;
+        //private string nombre;
         private int partidosJugados;
         private int totalGoles;
 
-        private Jugador()
-        {
-            this.partidosJugados = 0;
-            this.totalGoles = 0;
-        }
+        #region Constructores
+        //private Jugador()
+        //{
+        //    this.partidosJugados = 0;
+        //    this.totalGoles = 0;
+        //}
 
         public Jugador(string nombre) : base(nombre)
         {
@@ -29,38 +30,35 @@ namespace ClassEjercicio_29
             this.totalGoles = totalGoles;
             this.partidosJugados = totalPartidos;
         }
+        #endregion
 
-        public string MostrarDatos()
+        public override string MostrarDatos()
         {
             StringBuilder miStringBuilder = new StringBuilder();
 
-            miStringBuilder.AppendLine("NOMBRE DEL JUGADOR: "+this.nombre+"DNI: "+this.dni.ToString());
-            miStringBuilder.AppendLine("PARTIDOS JUGADOS: "+this.partidosJugados.ToString()+"TOTAL GOLES: "+this.totalGoles.ToString()+"PROMEDIO GOLES: "+this.PromedioGoles.ToString());
+            miStringBuilder.AppendLine(base.MostrarDatos());
+            miStringBuilder.AppendLine("PARTIDOS JUGADOS: "+this.PartidosJugados+"TOTAL GOLES: "+this.TotalGoles+"PROMEDIO GOLES: "+this.PromedioGoles);
 
             return miStringBuilder.ToString();
-        }
-
-        public static bool operator !=(Jugador j1, Jugador j2)
-        {
-            bool retorno = false;
-
-            if (j1.dni != j2.dni)
-            {
-                retorno = true;
-            }
-            return retorno;
         }
 
         public static bool operator ==(Jugador j1, Jugador j2)
         {
             bool retorno = false;
 
-            if (j1.dni == j2.dni)
+            if (j1.Dni == j2.Dni)
             {
                 retorno = true;
             }
             return retorno;
         }
+
+        public static bool operator !=(Jugador j1, Jugador j2)
+        {
+            return !(j1 == j2);
+        }
+
+        #region Propiedades
         public int PartidosJugados 
         {
             get
@@ -68,6 +66,7 @@ namespace ClassEjercicio_29
                 return this.partidosJugados;
             }
         }
+
         public int TotalGoles 
         {
             get
@@ -75,6 +74,7 @@ namespace ClassEjercicio_29
                 return this.totalGoles;
             }
         }
+
         public float PromedioGoles 
         {
             get
@@ -82,29 +82,29 @@ namespace ClassEjercicio_29
                 return this.TotalGoles / (float)this.PartidosJugados;
             }
         }
+        //public long dni 
+        //{
+        //    get
+        //    {
+        //        return this.dni;
+        //    }
+        //    set
+        //    {
+        //        this.dni = value;
+        //    }
+        //}
 
-        public long Dni 
-        {
-            get
-            {
-                return this.dni;
-            }
-            set
-            {
-                this.dni = value;
-            }
-        }
-
-        public string Nombre 
-        {
-            get
-            {
-                return this.nombre;
-            }
-            set
-            {
-                this.nombre = value;
-            }
-        }
+        //public string Nombre 
+        //{
+        //    get
+        //    {
+        //        return this.nombre;
+        //    }
+        //    set
+        //    {
+        //        this.nombre = value;
+        //    }
+        //}
+        #endregion
     }
 }

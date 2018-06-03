@@ -21,7 +21,7 @@ namespace ClassEjercicio_29
             this.fechaNacimiento = fechaNacimiento;
         }
 
-        public string MostrarDatos()
+        public override string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
 

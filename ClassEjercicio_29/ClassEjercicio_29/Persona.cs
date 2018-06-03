@@ -16,12 +16,14 @@ namespace ClassEjercicio_29
             this.Nombre = nombre;
         }
 
+        
         public Persona(long dni, string nombre)
             : this(nombre)
         {
             this.Dni = dni;
         }
 
+        #region Propiedades
         public long Dni 
         {
             get
@@ -45,12 +47,13 @@ namespace ClassEjercicio_29
                 this.nombre = value;
             }
         }
+        #endregion
 
-        public string MostrarDatos()
+        public virtual string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("NOMBRE: "+this.Nombre+"DNI: "+this.Dni.ToString());
+            sb.AppendLine("NOMBRE: "+this.Nombre+"DNI: "+this.Dni);
 
             return sb.ToString();
         }

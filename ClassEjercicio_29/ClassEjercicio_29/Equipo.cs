@@ -10,17 +10,17 @@ namespace ClassEjercicio_29
     {
         private short cantidadDeJugadores;
         private List<Jugador> jugadores;
-        private string nombre;
+        private string nombreEquipo;
 
         private Equipo()
         {
-            List<Jugador>  jugadores = new List<Jugador>();
+            this.jugadores = new List<Jugador>();
         }
 
         public Equipo(short cantidad, string nombre) : this()
         {
             this.cantidadDeJugadores = cantidad;
-            this.nombre = nombre;
+            this.nombreEquipo = nombre;
         }
 
         public static bool operator +(Equipo equipo, Jugador jugador)
@@ -41,6 +41,31 @@ namespace ClassEjercicio_29
             }
             return retorno;
         }
-        public int MyProperty { get; set; }
+
+        #region Propiedades
+        public short CantidadDeJugadores 
+        {
+            get
+            {
+                return this.cantidadDeJugadores;
+            }
+        }
+
+        public List<Jugador> Jugadores 
+        {
+            get
+            {
+                return this.jugadores;
+            }
+        }
+        public string NombreEquipo 
+        {
+            get
+            {
+                return this.nombreEquipo;
+            }
+        }
+        #endregion
+
     }
 }
