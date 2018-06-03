@@ -1,0 +1,10 @@
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\bin\Debug\VistaConsola.exe.config
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\bin\Debug\VistaConsola.exe
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\bin\Debug\VistaConsola.pdb
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\bin\Debug\Entidades.dll
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\bin\Debug\Entidades.pdb
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\obj\Debug\VistaConsola.csprojResolveAssemblyReference.cache
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\obj\Debug\VistaConsola.exe
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\obj\Debug\VistaConsola.pdb
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\obj\Debug\VistaConsola.VistaForm.resources
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Gutierrez.Julieth\VistaConsola\obj\Debug\VistaConsola.csproj.GenerateResource.Cache

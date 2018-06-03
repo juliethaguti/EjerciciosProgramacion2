@@ -1,0 +1,5 @@
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Entidades\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Entidades\Entidades\bin\Debug\Entidades.dll
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Entidades\Entidades\bin\Debug\Entidades.pdb
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Entidades\Entidades\obj\Debug\Entidades.dll
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\Entidades\Entidades\obj\Debug\Entidades.pdb
