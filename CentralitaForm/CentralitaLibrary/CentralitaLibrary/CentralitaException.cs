@@ -23,7 +23,7 @@ namespace CentralitaLibrary
         {
             get
             {
-                return nombreClase;
+                return this.nombreClase;
             }
         }
 
@@ -31,22 +31,23 @@ namespace CentralitaLibrary
         {
             get
             {
-                return nombreMetodo;
+                return this.nombreMetodo;
             }
         }
         #endregion
 
         #region Constructores
-        public CentralitaException(string mensaje, string metodo)
-            : this(mensaje, metodo, null)
+        public CentralitaException(string mensaje, string clase, string metodo)
+            : this(mensaje, clase, metodo, null)
         {
 
         }
 
-        public CentralitaException(string mensaje, string metodo, Exception innerException)
+        public CentralitaException(string mensaje, string clase, string metodo, Exception innerException)
             : base(mensaje,innerException)
         {
-
+            this.nombreClase = clase;
+            this.nombreMetodo = metodo;
         }
         #endregion
     }

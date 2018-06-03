@@ -10,15 +10,3 @@ C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralitaForm\FrmCentral
 C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.csproj.GenerateResource.Cache
 C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.exe
 C:\Users\JulietA\Documents\Visual Studio 2012\Projects\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.pdb
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\bin\Debug\FrmCentral.exe.config
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.exe
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.pdb
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\bin\Debug\FrmCentral.exe
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\bin\Debug\FrmCentral.pdb
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\bin\Debug\CentralitaLibrary.dll
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\bin\Debug\CentralitaLibrary.pdb
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.csprojResolveAssemblyReference.cache
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.FrmCentralita.resources
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.FrmLlamada.resources
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.Properties.Resources.resources
-C:\Users\alumno\Desktop\CentralitaForm\FrmCentral\FrmCentral\obj\Debug\FrmCentral.csproj.GenerateResource.Cache

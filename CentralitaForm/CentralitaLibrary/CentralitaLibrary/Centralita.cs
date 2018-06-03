@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
+using CentralitaLibrary;
 
 namespace CentralHerencia
 {
@@ -148,6 +148,10 @@ namespace CentralHerencia
             if (!(c == nuevaLlamada))
             {
                 c.AgregarLlamada(nuevaLlamada);
+            }
+            else
+            {
+                throw new CentralitaException("La llamada ya existe", c.GetType().Name, "Operator +");
             }
             return c;
         }
