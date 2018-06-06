@@ -1,0 +1,6 @@
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\ClassEjercicio_36\ClassEjercicio_36\bin\Debug\ClassEjercicio_36.exe.config
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\ClassEjercicio_36\ClassEjercicio_36\bin\Debug\ClassEjercicio_36.exe
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\ClassEjercicio_36\ClassEjercicio_36\bin\Debug\ClassEjercicio_36.pdb
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\ClassEjercicio_36\ClassEjercicio_36\obj\Debug\ClassEjercicio_36.csprojResolveAssemblyReference.cache
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\ClassEjercicio_36\ClassEjercicio_36\obj\Debug\ClassEjercicio_36.exe
+C:\Users\JulietA\Documents\UTN\Julieth.Gutierrez.2D\ClassEjercicio_36\ClassEjercicio_36\obj\Debug\ClassEjercicio_36.pdb
