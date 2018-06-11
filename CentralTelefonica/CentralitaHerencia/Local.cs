@@ -10,39 +10,57 @@ namespace CentralitaHerencia
     {
         protected float _costo;
 
-        public float CostoLlamada 
+        #region Propierades
+        public override float CostoLlamada
         {
             get
             {
                 return CalcularCosto();
             }
         }
+        #endregion
 
+        #region Constructores
         public Local(string origen, float duracion, string destino, float costo)
             : base(duracion, destino, origen)
         {
             this._costo = costo;
         }
 
-        public Local(Llamada llamada, float costo) :this(llamada.NroOrigen,llamada.Duracion,llamada.NroDestino,costo)
+        public Local(Llamada llamada, float costo)
+            : this(llamada.NroOrigen, llamada.Duracion, llamada.NroDestino, costo)
         {
 
         }
+        #endregion
 
+        #region Metodos
         private float CalcularCosto()
         {
-            return base.Duracion * this.CostoLlamada;
-             
+            return base.Duracion * this._costo;
         }
 
-        public string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("DURACION: "+base.Duracion.ToString()+"DESTINO: "+base.NroDestino+"ORIGEN: "+base.NroOrigen
-                +"COSTO: "+this.CostoLlamada.ToString());
+            sb.AppendLine(base.Mostrar());
+            sb.AppendLine("COSTO: " + this.CostoLlamada);
 
             return sb.ToString();
         }
+        #endregion
+
+        #region Sobrecargas
+        public override bool Equals(object obj)
+        {
+            return obj is Local;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
+        #endregion
     }
 }
