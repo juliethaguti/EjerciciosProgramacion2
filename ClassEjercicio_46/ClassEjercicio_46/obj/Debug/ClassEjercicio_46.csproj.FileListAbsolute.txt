@@ -1,0 +1,6 @@
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_46\ClassEjercicio_46\bin\Debug\ClassEjercicio_46.exe.config
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_46\ClassEjercicio_46\bin\Debug\ClassEjercicio_46.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_46\ClassEjercicio_46\bin\Debug\ClassEjercicio_46.pdb
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_46\ClassEjercicio_46\obj\Debug\ClassEjercicio_46.csprojResolveAssemblyReference.cache
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_46\ClassEjercicio_46\obj\Debug\ClassEjercicio_46.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_46\ClassEjercicio_46\obj\Debug\ClassEjercicio_46.pdb
