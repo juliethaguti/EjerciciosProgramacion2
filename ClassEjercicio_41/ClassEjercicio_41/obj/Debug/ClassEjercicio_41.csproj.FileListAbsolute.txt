@@ -1,0 +1,2 @@
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_41\ClassEjercicio_41\bin\Debug\ClassEjercicio_41.exe.config
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_41\ClassEjercicio_41\obj\Debug\ClassEjercicio_41.csprojResolveAssemblyReference.cache
