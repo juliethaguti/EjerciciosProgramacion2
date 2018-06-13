@@ -1,0 +1,9 @@
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\bin\Debug\ClassEjercicio_68.exe.config
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\bin\Debug\ClassEjercicio_68.exe
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\bin\Debug\ClassEjercicio_68.pdb
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\obj\Debug\ClassEjercicio_68.csprojResolveAssemblyReference.cache
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\obj\Debug\ClassEjercicio_68.FormPersona.resources
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\obj\Debug\ClassEjercicio_68.Properties.Resources.resources
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\obj\Debug\ClassEjercicio_68.csproj.GenerateResource.Cache
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\obj\Debug\ClassEjercicio_68.exe
+D:\VisualStudio\ClassEjercicio_68\ClassEjercicio_68\obj\Debug\ClassEjercicio_68.pdb
