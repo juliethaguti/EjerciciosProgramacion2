@@ -1,0 +1,12 @@
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\bin\Debug\ClassEjercicio_55.exe.config
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\bin\Debug\ClassEjercicio_55.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\bin\Debug\ClassEjercicio_55.pdb
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\obj\Debug\ClassEjercicio_55.csprojResolveAssemblyReference.cache
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\obj\Debug\ClassEjercicio_55.Form1.resources
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\obj\Debug\ClassEjercicio_55.Properties.Resources.resources
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\obj\Debug\ClassEjercicio_55.csproj.GenerateResource.Cache
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\obj\Debug\ClassEjercicio_55.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_55\ClassEjercicio_55\obj\Debug\ClassEjercicio_55.pdb
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\ClassEjercicio_57\ClassEjercicio_55\bin\Debug\ClassEjercicio_55.exe.config
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\ClassEjercicio_57\ClassEjercicio_55\obj\Debug\ClassEjercicio_55.exe
+C:\Users\JulietA\Documents\Visual Studio 2012\Projects\ClassEjercicio_57\ClassEjercicio_55\obj\Debug\ClassEjercicio_55.pdb
