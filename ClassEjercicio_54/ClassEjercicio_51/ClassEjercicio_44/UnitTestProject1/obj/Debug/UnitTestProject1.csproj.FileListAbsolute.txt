@@ -1,0 +1,8 @@
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_44\UnitTestProject1\bin\Debug\OrderedTest1.orderedtest
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_44\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_44\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_44\UnitTestProject1\bin\Debug\ClassEjercicio_44.exe
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_44\UnitTestProject1\bin\Debug\ClassEjercicio_44.pdb
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_44\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_44\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+c:\users\julieta\documents\visual studio 2012\Projects\ClassEjercicio_44\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
