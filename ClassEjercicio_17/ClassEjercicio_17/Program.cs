@@ -10,11 +10,11 @@ namespace ClassEjercicio_17
     {
         static void Main(string[] args)
         {
-            Boligrafo boligrafoAzul = new Boligrafo(100,ConsoleColor.Blue);
-            Boligrafo boligrafoRojo = new Boligrafo(50, ConsoleColor.Red);
+            Boligrafo lapiceroAzul = new Boligrafo(100,ConsoleColor.Blue);
+            Boligrafo lapiceroRojo = new Boligrafo(50, ConsoleColor.Red);
 
-            
-
+            lapiceroAzul.Pintar(50,);
+           
         }
     }
 }

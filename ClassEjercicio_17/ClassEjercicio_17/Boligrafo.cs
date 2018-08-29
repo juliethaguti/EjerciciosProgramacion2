@@ -8,60 +8,68 @@ namespace ClassEjercicio_17
 {
     class Boligrafo
     {
-        private const short cantidadTintaMaxima = 100;
+        public const short cantidadTintaMaxima = 100; 
         private ConsoleColor color;
         private short tinta;
+
+        #region Constructor
+        public Boligrafo(short tinta, ConsoleColor color)
+        {
+            this.SetTinta(tinta);
+            this.color = color;
+        }
+        #endregion
 
         public ConsoleColor GetColor()
         {
             return this.color;
         }
+
         public short GetTinta()
         {
             return this.tinta;
         }
-        private void setTinta(short tinta)
+
+        public bool Pintar(int gasto, out string dibujo )
         {
-            this.tinta = tinta;
-        }
-        public void Recargar()
-        {
-            setTinta(cantidadTintaMaxima);
-        }
-        public Boligrafo(short tinta, ConsoleColor color)
-        {
-            setTinta(tinta);
-            this.color = color;
-        }
-        public bool Pintar(int gasto, out string dibujo)
-        {
+            dibujo = "";
             bool retorno = false;
             int i;
-            int tinta;
-            dibujo = "";
-
-            tinta =  this.GetTinta()- gasto;
-            if (tinta > 0)
+            if((this.tinta - gasto) >= 0)
             {
-                this.setTinta((short)tinta);
+                this.SetTinta((short)gasto);
                 retorno = true;
-            }
-            if (this.GetTinta() >= gasto)
-            {
-                for (i = 0; i < gasto; i++)
+                for(i = 0; i < gasto;i++)
                 {
-                    dibujo += "*";
+                    dibujo = "*";
                 }
             }
             else
             {
-                for (i = 0; i < this.GetTinta(); i++)
+                for(i = 0; i < this.tinta; i++)
                 {
-                    dibujo += "*";
+                    dibujo = "*";
                 }
             }
             return retorno;
         }
 
+        public void Recargar()
+        {
+            this.SetTinta(cantidadTintaMaxima);
+        }
+
+        private void SetTinta(short tinta)
+        {
+
+            if((this.tinta + tinta) >= 0 && (this.tinta + tinta) <= cantidadTintaMaxima)
+            {
+                this.tinta = (short)(this.tinta + tinta);
+            }
+            else if(tinta == cantidadTintaMaxima)
+            {
+                this.tinta = cantidadTintaMaxima;
+            }
+        }
     }
 }
