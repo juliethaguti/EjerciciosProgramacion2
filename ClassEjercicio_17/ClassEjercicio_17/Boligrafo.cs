@@ -41,7 +41,8 @@ namespace ClassEjercicio_17
                 retorno = true;
                 for(i = 0; i < gasto;i++)
                 {
-                    dibujo = "*";
+                    
+                    dibujo = dibujo + "*";
                 }
             }
             else
