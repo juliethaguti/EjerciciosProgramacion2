@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -83,6 +83,26 @@ namespace ClassEjercicio_21
         {
             return !(f1 == f2);
         }
+
+    public static Fahrenheit operator +(Fahrenheit f, Kelvin k)
+    {
+      return f.temperatura + ((Fahrenheit)k).GetTemperatura();
+    }
+
+    public static Fahrenheit operator +(Fahrenheit f, Celsius c)
+    {
+      return f.temperatura + ((Fahrenheit)c).GetTemperatura();
+    }
+
+    public static Fahrenheit operator -(Fahrenheit f, Kelvin k)
+    {
+      return f.temperatura - ((Fahrenheit)k).GetTemperatura();
+    }
+
+    public static Fahrenheit operator -(Fahrenheit f, Celsius c)
+    {
+      return f.temperatura - ((Fahrenheit)c).GetTemperatura();
+    }
         #endregion
 
         #region Métodos

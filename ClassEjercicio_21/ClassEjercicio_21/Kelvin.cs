@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -103,6 +103,13 @@ namespace ClassEjercicio_21
         {
             return k.temperatura - ((Kelvin)c).temperatura;
         }
-        #endregion
+    #endregion
+
+    #region Métodos
+    public double GetTemperatura()
+    {
+      return this.temperatura;
     }
+    #endregion
+  }
 }
