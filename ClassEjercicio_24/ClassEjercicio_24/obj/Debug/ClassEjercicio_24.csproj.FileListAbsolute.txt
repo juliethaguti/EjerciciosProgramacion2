@@ -1,0 +1,14 @@
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\bin\Debug\ClassEjercicio_24.exe.config
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\bin\Debug\ClassEjercicio_24.exe
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\bin\Debug\ClassEjercicio_24.pdb
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\bin\Debug\ClassEjercicio_21.exe
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\bin\Debug\ClassEjercicio_21.pdb
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\bin\Debug\ClassEjercicio_21.exe.config
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\obj\Debug\ClassEjercicio_24.csprojAssemblyReference.cache
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\obj\Debug\ClassEjercicio_24.Form1.resources
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\obj\Debug\ClassEjercicio_24.Properties.Resources.resources
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\obj\Debug\ClassEjercicio_24.csproj.GenerateResource.cache
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\obj\Debug\ClassEjercicio_24.csproj.CoreCompileInputs.cache
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\obj\Debug\ClassEjercicio_24.csproj.CopyComplete
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\obj\Debug\ClassEjercicio_24.exe
+D:\VisualStudio\ClassEjercicio_24\ClassEjercicio_24\obj\Debug\ClassEjercicio_24.pdb
