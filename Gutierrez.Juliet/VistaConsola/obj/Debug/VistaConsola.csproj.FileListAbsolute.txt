@@ -1,0 +1,10 @@
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\obj\Debug\VistaConsola.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\bin\Debug\VistaConsola.exe.config
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\bin\Debug\VistaConsola.exe
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\bin\Debug\VistaConsola.pdb
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\bin\Debug\Entidades.dll
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\bin\Debug\Entidades.pdb
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\obj\Debug\VistaConsola.csprojAssemblyReference.cache
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\obj\Debug\VistaConsola.csproj.CopyComplete
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\obj\Debug\VistaConsola.exe
+D:\VisualStudio\Gutierrez.Juliet\VistaConsola\obj\Debug\VistaConsola.pdb
