@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,8 +15,8 @@ namespace Entidades
     public abstract class Producto
     {
         private string descripcion;
-        //public delegate ProductoTerminado
-        //public event ProductoTerminado InformarProductoTerminado
+    public delegate void ProductoTerminado(Object sender, EventArgs e);
+    public event ProductoTerminado InformarProductoTerminado;
 
         #region Propiedades
         public string Descripcion
@@ -41,10 +41,18 @@ namespace Entidades
 
         #region Métodos
         public void Elaborar()
-        { }
+        {
 
-        public string Mostrar()
-        { }
+      InformarProductoTerminado();
+    }
+
+        public virtual string Mostrar()
+        {
+      StringBuilder sb = new StringBuilder();
+      sb.AppendFormat("DESCRIPCION: {0}", this.Descripcion);
+
+      return sb.ToString();
+    }
 
         public abstract bool ValidarDimensiones();
         #endregion

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,14 +53,33 @@ namespace Entidades
 
         #region Métodos
         private int CalcularVolumen()
-        { }
+        {
+      return this.Ancho * this.Alto * this.Largo;
+    }
 
-        public string Mostrar()
-        { }
+        public override string Mostrar()
+        {
+      StringBuilder sb = new StringBuilder();
+
+      sb.AppendLine(base.Mostrar());
+      sb.AppendLine("Tipo: B");
+      sb.AppendFormat("\nANCHO: {0}", this.Ancho);
+      sb.AppendFormat("\nALTO: {0}", this.Alto);
+      sb.AppendFormat("\nLARGO: {0}", this.Largo);
+      sb.AppendFormat("\nVOLUMEN: {0}", this.CalcularVolumen());
+
+      return sb.ToString();
+    }
 
         public override bool ValidarDimensiones()
         {
-            throw new NotImplementedException();
+            bool retorno = false;
+
+      if((this.Largo + this.Ancho + this.Alto) <= 100)
+      {
+        retorno = true;
+      }
+      return retorno;
         }
         #endregion
 
