@@ -188,6 +188,10 @@
             // cmbMaterial
             // 
             this.cmbMaterial.FormattingEnabled = true;
+            this.cmbMaterial.Items.AddRange(new object[] {
+            "Aluminio",
+            "Caucho",
+            "Plastico"});
             this.cmbMaterial.Location = new System.Drawing.Point(80, 126);
             this.cmbMaterial.Name = "cmbMaterial";
             this.cmbMaterial.Size = new System.Drawing.Size(121, 21);

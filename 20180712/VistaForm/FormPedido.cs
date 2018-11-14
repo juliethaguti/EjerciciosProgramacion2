@@ -26,6 +26,7 @@ namespace VistaForm
         private void Form1_Load(object sender, EventArgs e)
         {
             cmbMaterial.DataSource = Enum.GetValues(typeof(Material));
+      CargarProductosTerminados();
         }
 
         void TotalizarProductosTerminados(object sender, EventArgs e)
@@ -54,14 +55,16 @@ namespace VistaForm
 
         void CargarProductosTerminados()
         {
-            //completar
+            this.lstTerminados.Text = 
         }
 
         private void btnAgregarA_Click(object sender, EventArgs e)
         {
             Material material;
             Enum.TryParse<Material>(cmbMaterial.SelectedValue.ToString(), out material);
-            //Código alumno
+      ProductoA p = new ProductoA(txtDescripcionA.Text,(short)nudDiametro.Value, (Material)cmbMaterial.SelectedItem);
+      p.InformarProductoTerminado += AgregarProductoTerminado;
+      p.InformarProductoTerminado += TotalizarProductosTerminados;
 
             this.txtDescripcionA.Text = "";
             this.nudDiametro.Value = 0;
@@ -79,7 +82,7 @@ namespace VistaForm
 
         private void btnConfirmarPedido_Click(object sender, EventArgs e)
         {
-      hilo = new Thread(pedido.);
+      hilo = new Thread(pedido.FabricarPedido);
 
         }
 
